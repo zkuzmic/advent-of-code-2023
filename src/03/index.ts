@@ -46,7 +46,7 @@ linesArray.forEach((line, lineIndex) => {
 
   numbersByLine[lineIndex] = thisLineNumbers;
 
-  // determine if symbols are adjecent to each number
+  // determine if symbols are adjacent to each number
   thisLineNumbers.forEach((cur) => {
     // before
     if (cur.firstIndex > 0 && isSymbol(lineArray[cur.firstIndex - 1])) {
